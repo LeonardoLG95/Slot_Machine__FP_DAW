@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+        <title>Máquina Tragaperras</title>
+        <script src="js/funciones.js"></script>
+        <link rel="stylesheet" href="css/estilos.css"/>
+    </head>
+    <body>
+        <div id="marco">
+            <div id="contenedorMaquina">
+                <h1>Máquina Tragaperras</h1>
+                <p>¡Introduce monedas y pulsa tirar para llamar a la fortuna!</p>
+                <div id="maquina">
+                    <div id="hueco1"><img id="imgHueco1" src="img/ajo.png"/></div>
+                    <div id="hueco2"><img id="imgHueco2" src="img/cebolla.png"/></div>
+                    <div id="hueco3"><img id="imgHueco3" src="img/zanahoria.png"/></div>
+                    <img id="imgMaquina" src="img/maquina.svg"/>
+                </div>
+                <h2 id="mensaje">Monedas: 0</h2>
+                <form>
+                    <input id="monedas" type="button" value="Introducir moneda">
+                    <input id="tirar" type="button" value="Tirar" disabled>
+                    <br><br>
+                    <input id="salir" type="button" value="Salir">
+                </form>
+            </div>
+            <div id="contenedorLista">
+                <ol id="lista"></ol>
+            </div>
+        </div>
+    </body>
+</html>

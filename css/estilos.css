@@ -1,0 +1,71 @@
+#marco{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    /*Ancho de toda la máquina + ancho de la lista*/
+    width: 838px;
+}
+#contenedorMaquina{
+    float: left;
+    width: 438px;
+}
+#maquina{
+    float: left;
+    width: 438px;
+    height: 499px;
+    position: relative;
+}
+/*Imagen sencilla con los huecos cuadrados hecha
+en inkscape para que coincida con las verduritas*/
+#imgMaquina{
+    position: absolute;
+    z-index: 2;
+}
+/*Medidos los huecos con gimp, aún así los pongo un poco más grandes porque
+veo que si se cambia la resolución se queda sin cubrir una linea de pixeles o dos a veces*/
+#hueco1, #hueco2, #hueco3{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 340px;
+    z-index: 1;
+}
+#imgHueco1, #imgHueco2, #imgHueco3{
+    /*position: absolute;*/
+    width: 100px;
+    height: 100px;
+}
+/*Las posiciones en horizontal para cada hueco*/
+#hueco1{
+    left: 36px;
+    
+}
+#hueco2{
+    left: 167px;
+}
+#hueco3{
+    left: 299px;
+}
+#mensaje{
+    float: left;
+    width: 100%;
+    margin-top: 5%;
+}
+form{
+    float: left;
+    margin: auto;
+}
+#contenedorLista{
+    float: right;
+    width: 400px;
+    height: 800px;
+    /*Para un scroll solo en el contenedor
+    de la lista, para mejor estética*/
+    overflow-y: auto;
+}
+#lista{
+    float: right;
+}
+#lista li{
+    margin-bottom:5%;
+}
